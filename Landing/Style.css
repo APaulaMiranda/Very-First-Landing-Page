@@ -1,0 +1,65 @@
+/*Fonts and Colors
+*/
+
+body{
+  background: #bdf2d5;
+  color: #b31e6f;
+  font-family: Helvetica;
+  margin: 0px;
+}
+h1{
+  font-family: Montserrat Subrayada;
+  color: #ff9e74;
+  font-size: 50px;
+}
+h2 {
+  font-family: Montserrat Subrayada;
+  color: #e41749;
+  font-size:18px;
+}
+a {
+  color: #ff3e6d;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/*Custom Design
+*/
+
+#banner {
+  background-image: url("Images/riccardo-chiarini-365677-unsplash.jpg");
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+  color: #ff9e74;
+}
+#banner h1 {
+  color: #fe5f55;
+  font-size: 50px;
+  text-shadow: 0.3px 0.3px 0.3px grey;
+}
+#banner p {
+  font-size: 30px;
+  font-weight: lighter;
+  color:white;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.section{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+.fab {
+  color: pink;
+  font-size: 30px;
+}
+.fab:hover {
+  color: white;
+  cursor: none;
+}
